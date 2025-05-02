@@ -11,7 +11,7 @@ source:
   url: https://gitlab.freedesktop.org/mesa/drm/-/archive/libdrm-{{ version }}/drm-libdrm-{{ version }}.tar.gz
   sha256: 49c077f3938147e7c321fe89255eb189c1be68f6ed0aa36e29d38e3db0e84e08
   patches:
-    # https://gitlab.freedesktop.org/mesa/drm/-/issues/72
+    # see https://gitlab.freedesktop.org/mesa/drm/-/issues/72
     - link_rt.patch
 
 build:
@@ -23,7 +23,6 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ stdlib("c") }}
     - meson
   host:
     - libpciaccess
