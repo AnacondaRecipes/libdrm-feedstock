@@ -2,6 +2,7 @@
 {% set version = "2.4.134" %}
 
 # http://www.linuxfromscratch.org/blfs/view/8.2/x/libdrm.html
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -53,11 +54,6 @@ about:
     and  similar projects.  New  functionality in  the kernel  DRM drivers
     typically requires  a new  libdrm, but a  new libdrm will  always work
     with an older kernel.
-
-
-
-
-
 
 extra:
   recipe-maintainers:
