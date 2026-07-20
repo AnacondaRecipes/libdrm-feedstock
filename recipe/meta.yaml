@@ -1,8 +1,6 @@
 {% set name = "libdrm" %}
 {% set version = "2.4.134" %}
 
-# http://www.linuxfromscratch.org/blfs/view/8.2/x/libdrm.html
-
 package:
   name: {{ name }}
   version: {{ version }}
