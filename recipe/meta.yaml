@@ -4,7 +4,7 @@
 # http://www.linuxfromscratch.org/blfs/view/8.2/x/libdrm.html
 
 package:
-  name: {{ name|lower }}
+  name: {{ name }}
   version: {{ version }}
 
 source:
