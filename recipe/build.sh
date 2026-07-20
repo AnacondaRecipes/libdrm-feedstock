@@ -3,4 +3,6 @@ meson setup builddir \
 	--prefix=$PREFIX \
 	--libdir=lib
 
+meson test -C builddir --print-errorlogs
+
 meson install -C builddir
