@@ -14,7 +14,7 @@ source:
 
 build:
   skip: true  # [not linux]
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('libdrm', max_pin='x.x') }}
 
